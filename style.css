@@ -1,0 +1,162 @@
+/*
+ Theme Name:   Istic.Networks
+ Theme URI:    https://github.com/istic/wordpress
+ Description:  Istic.Networks Wordpress Theme
+ Author:       Nicholas Avenell
+ Author URI:   http://istic.net
+ Template:     imbalance
+ Version:      1.0.0
+ Text Domain:  istic-net-wordpress
+*/
+
+@import url("../imbalance/style.css");
+@import url("http://istic.net/assets/steelfish/stylesheet.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+body {
+	background: #FFDB58;
+}
+
+#outer {
+	background: #FFF;
+}
+
+#main {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+thead th {background:#FFDB58;}
+
+tr.even td {background:#FFDB58;}
+
+a, a:hover {
+	border-color: #D4B02F !important;
+}
+
+a {
+	color: #D4B02F;
+}
+
+	#logo {
+		font-family: 'SteelfishRegular';
+		font-size: 48pt;
+		font-weight: normal;
+		color: white;
+		background: black;
+	}
+
+	#top {
+		background-color: black;
+	}
+
+li.article .postmetadata a {
+	color:#D4B02F !important;
+}
+
+.single .postmetadata a {
+	color:#D4B02F !important;
+}
+
+.comment-author a {
+	color:#D4B02F !important;
+}
+
+.login a {
+	color:#D4B02F !important;
+}
+
+li.article .postmetadata a {
+	color:#D4B02F !important;
+}
+
+#categories, #archives, #search {
+	border-bottom:solid 1px #D4B02F;
+}
+
+#categories ul li a:hover, #archives ul li a:hover {
+	border-top:solid 1px #D4B02F;
+	border-bottom:solid 1px #D4B02F;
+}
+
+.article p a, .commentlist p a {
+	border-bottom:1px solid #D4B02F;
+	text-decoration:none;
+}
+
+.article p a:hover, .commentlist p a:hover {
+color: #D4B02F;
+}
+
+li.article .postmetadata a {
+	color:#D4B02F !important;
+}
+
+
+#sidebar #recent-posts li a {
+	border-bottom:1px solid #D4B02F;
+}
+
+#sidebar #get-recent-comments a {
+	border-bottom:1px solid #D4B02F;
+}
+
+.single .postmetadata a {
+	color:#D4B02F !important;
+}
+
+#searchform #s:focus, #searchform #s:hover {
+	border:solid 1px #D4B02F;
+}
+
+#searchform #searchsubmit:hover {
+	background-color:#D4B02F;
+}
+
+.comment-author a {
+	color:#D4B02F !important;
+}
+
+.login a {
+	color:#D4B02F !important;
+}
+
+#author:focus, #email:focus, #url:focus, #respond textarea:focus {
+	border:solid 1px #D4B02F;
+}
+
+#submit:hover {
+	background-color:#D4B02F;
+	color:#FFF;
+}
+.wp-pagenavi .current {
+	border-bottom:solid 1px #D4B02F;
+}
+
+.wp-pagenavi a:hover {
+	border-bottom:solid 1px #D4B02F;
+}
+
+#twitter_update_list a {
+	color:#D4B02F;
+}
+
+.follow a {
+	border: 1px solid #D4B02F;
+	color: #D4B02F;
+}
+
+.follow a:hover {
+	background-color:#D4B02F;
+	border: 1px solid #D4B02F;	
+}
+
+#categories, #archives, #search {
+	border-bottom-color: #D4B02F;
+}
+
+#searchform #s:focus, #searchform #s:hover {
+	border-color: #D4B02F;
+}
