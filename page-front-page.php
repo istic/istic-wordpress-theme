@@ -51,6 +51,7 @@ h1 {
     text-align: center;
     line-height: 130pt;
     padding-bottom: .3em;
+    font-weight: normal;
 }
 
 p {
