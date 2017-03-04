@@ -10,7 +10,8 @@
 */
 
 @import url("../imbalance/style.css");
-@import url("http://istic.net/assets/steelfish/stylesheet.css");
+/* @import url("/assets/steelfish/stylesheet.css"); */
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
 
 /* =Theme customization starts here
 -------------------------------------------------------------- */
@@ -40,12 +41,19 @@ a {
 	color: #D4B02F;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Comfortaa';
+}
+
 	#logo {
-		font-family: 'SteelfishRegular';
+		font-family: 'Comfortaa';
 		font-size: 48pt;
 		font-weight: normal;
-		color: white;
+		color: #FFD300;
 		background: black;
+		line-height: 70px;
+		width: auto;
+		text-align: center;
 	}
 
 	#top {

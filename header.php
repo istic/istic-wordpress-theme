@@ -33,7 +33,7 @@
 	<div id="outer">
     	<div id="top">
         	<div id="logo">
-			Istic.Networks
+			istic
         	</div>
         </div>
         <div id="menu">
